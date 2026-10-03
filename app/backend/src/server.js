@@ -3,6 +3,7 @@ import cors from 'cors';
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+console.log("lalala")
 
 // --- Data source: AniList GraphQL ---
 // We switched away from Jikan (api.jikan.moe) because Jikan scrapes
